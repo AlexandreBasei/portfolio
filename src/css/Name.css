@@ -1,0 +1,35 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right bottom, #D32E4C 0%, #813A32 100%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+section h1{
+
+    animation: fadeOut linear forwards;
+    animation-timeline: view();
+    animation-range: exit -100px;
+}
+
+section > img{
+    scale: .8;
+    opacity: 0;
+    animation: fadeIn linear forwards;
+    animation-timeline: view();
+    animation-range: 250px 500px;
+}
+
+@keyframes fadeIn {
+    to {scale:1; opacity: 1;}
+}
+
+@keyframes fadeOut {
+    to {opacity: 0;}
+}
