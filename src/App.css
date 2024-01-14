@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.descr{
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  top: 10%;
+}
+
+.descr > p{
+  top: 10%;
+  color: rgba(255, 255, 255, .85);
+  text-shadow: 1px 1px 6px #454545;
+  padding: 0 10%;
+}
+
+.descr > button{
+  margin: 5% 0 0 10%;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 1px 1px 15px #454545;
+  transition: scale 0.3s ease;
+}
+
+.descr > button:hover{
+  scale: 1.05;
 }

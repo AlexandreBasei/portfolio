@@ -1,0 +1,177 @@
+@keyframes topfood {
+    from  {}
+}
+
+#topfood{
+    background-color: #312ed3;
+    padding: 0;
+    justify-content: end;
+    position: relative;
+    overflow: hidden;
+}
+
+#topfood div img{
+    width: 25px;
+    opacity: .22;
+    user-select: none;
+    cursor: default;
+    padding: 10px;
+    pointer-events: none;
+}
+
+#topfood div img:hover{
+    background-color: white;
+}
+
+#topfood .row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    transform: rotate(-30deg);
+    top: -2.5%;
+}
+
+#topfood .row div{
+    white-space: nowrap;
+    animation: animate 80s linear infinite;
+    animation-delay: -80s;
+}
+
+#topfood .row div:nth-child(2){
+    animation: animate2 80s linear infinite;
+    animation-delay: -40s;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate2 {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+#topfood .row:nth-child(even) div{
+    animation: animate3 80s linear infinite;
+    animation-delay: -80s;
+}
+
+#topfood .row:nth-child(even) div:nth-child(2){
+    animation: animate4 80s linear infinite;
+    animation-delay: -40s;
+}
+
+@keyframes animate3 {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animate4 {
+    0%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.animated-title {
+  color: rgba(255, 255, 255, .85);
+  font-family: Roboto, Arial, sans-serif;
+  text-shadow: 1px 1px 6px #292929;
+  font-weight: 1000;
+  text-transform: uppercase;
+  height: 90vmin;
+  left: 55%;
+  position: absolute;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 1.8rem;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div.text-top {
+  /* border-bottom: 1vmin solid #000; */
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText linear forwards;
+  animation-delay: 0.5s;
+  animation-timeline: scroll(root);
+  animation-range: 20vh 55vh;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+
+#topfood > div > div > button{
+    margin: 5% 0 0 10%;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 15px #454545;
+    transition: scale 0.3s ease;
+}
+
+#topfood > div > div > button:hover{
+    scale: 1.05;
+}
+
+#topfood > div > div > button:last-child{
+    display: none;
+}
+
+@keyframes zoomIn {
+    to {scale:1; opacity: 1;}
+}
+
+@keyframes fadeIn {
+    to {scale:1; opacity: 1;}
+}
+
+#topfood > img{
+    
+    width: 85%;
+    margin-left: 10%;
+    bottom: 15%;
+    position: absolute;
+    scale: .75;
+    opacity: 1;
+    animation: zoomIn linear forwards;
+    animation-timeline: scroll(root);
+    animation-range: 55vh 85vh;
+}

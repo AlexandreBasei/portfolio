@@ -1,0 +1,14 @@
+footer{
+    background-color: #21252b;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+
+    & p{
+        margin: 0;
+        color: #abb2bf;
+    }
+}

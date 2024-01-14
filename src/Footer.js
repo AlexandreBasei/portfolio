@@ -1,9 +1,12 @@
 import React from 'react';
+import './css/Footer.css';
 
 function Footer() {
   return (
     <footer>
-      <p>© 2024 Mon Nom. Tous droits réservés.</p>
+      <p>alexandreacevedobasei@gmail.com</p>
+      <p>06 46 88 46 88</p>
+      <p>© 2024 Alexandre Basei. Tous droits réservés.</p>
     </footer>
   );
 }

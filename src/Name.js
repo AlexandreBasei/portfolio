@@ -1,21 +1,19 @@
 import React from 'react';
 import './css/Name.css';
-import image from './capture.png';
 
 function Name() {
 
     return (
-        <>
-            <section>
-                <h1>Alexandre Basei</h1>
-            </section>
+        <section id='name'>
+            <h1 className='alex'>Alexandre</h1>
+            <h1 className='basei'>Basei</h1>
 
-            <section>
-                <img src={image} alt="Oui" />
-            </section>
+            <div className="roller">
+                <span id="rolltext">Web developer<br />
+                    Game developer<br /></span>
+            </div>
 
-            <section></section>
-        </>
+        </section>
     );
 }
 
