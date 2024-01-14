@@ -14,75 +14,9 @@
     pointer-events: none;
 }
 
-#game div img:hover{
-    background-color: white;
-}
-
 #game .row{
-    position: relative;
-    width: 100%;
-    display: flex;
-    padding: 10px 0;
-    white-space: nowrap;
     transform: rotate(30deg);
     top: 2.5%;
-}
-
-#game .row div{
-    white-space: nowrap;
-    animation: animate 80s linear infinite;
-    animation-delay: -80s;
-}
-
-#game .row div:nth-child(2){
-    animation: animate2 80s linear infinite;
-    animation-delay: -40s;
-}
-
-@keyframes animate {
-    0%{
-        transform: translateX(100%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes animate2 {
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-200%);
-    }
-}
-
-#game .row:nth-child(even) div{
-    animation: animate3 80s linear infinite;
-    animation-delay: -80s;
-}
-
-#game .row:nth-child(even) div:nth-child(2){
-    animation: animate4 80s linear infinite;
-    animation-delay: -40s;
-}
-
-@keyframes animate3 {
-    0%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(100%);
-    }
-}
-
-@keyframes animate4 {
-    0%{
-        transform: translateX(-200%);
-    }
-    100%{
-        transform: translateX(0%);
-    }
 }
 
 #game .animated-title > div.text-top div{
