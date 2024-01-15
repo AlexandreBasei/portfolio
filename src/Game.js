@@ -30,6 +30,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -42,32 +54,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
-                </div>
-            </div>
-            <div className='row'>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
-                </div>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -82,6 +80,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -94,32 +104,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
-                </div>
-            </div>
-            <div className='row'>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
-                </div>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -134,6 +130,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -146,32 +154,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
-                </div>
-            </div>
-            <div className='row'>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
-                </div>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -186,6 +180,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -198,6 +204,218 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+            </div>
+            <div className='row bug'>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+            </div>
+            <div className='row bug'>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+            </div>
+            <div className='row bug'>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+            </div>
+            <div className='row bug'>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -212,6 +430,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -224,32 +454,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
-                </div>
-            </div>
-            <div className='row'>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
-                </div>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -264,6 +480,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -276,32 +504,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
-                </div>
-            </div>
-            <div className='row'>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
-                </div>
-                <div>
-                    <img src={sparkles} alt="sparkles" />
-                    <img src={cube} alt="sparkles" />
-                    <img src={oeil} alt="sparkles" />
-                    <img src={music} alt="sparkles" />
-                    <img src={lamp} alt="sparkles" />
-                    <img src={rocket} alt="sparkles" />
-                    <img src={puzzle} alt="sparkles" />
-                    <img src={couches} alt="sparkles" />
-                    <img src={hand} alt="sparkles" />
-                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -316,6 +530,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -328,6 +554,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
             <div className='row'>
@@ -342,6 +580,18 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
                 <div>
                     <img src={sparkles} alt="sparkles" />
@@ -354,6 +604,68 @@ function Game() {
                     <img src={couches} alt="sparkles" />
                     <img src={hand} alt="sparkles" />
                     <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+            </div>
+            <div className='row'>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
+                </div>
+                <div>
+                    <img src={sparkles} alt="sparkles" />
+                    <img src={cube} alt="sparkles" />
+                    <img src={oeil} alt="sparkles" />
+                    <img src={music} alt="sparkles" />
+                    <img src={lamp} alt="sparkles" />
+                    <img src={rocket} alt="sparkles" />
+                    <img src={puzzle} alt="sparkles" />
+                    <img src={couches} alt="sparkles" />
+                    <img src={hand} alt="sparkles" />
+                    <img src={clock} alt="sparkles" />
+                    <span>
+                        <img src={sparkles} alt="sparkles" />
+                        <img src={cube} alt="sparkles" />
+                        <img src={oeil} alt="sparkles" />
+                        <img src={music} alt="sparkles" />
+                        <img src={lamp} alt="sparkles" />
+                        <img src={rocket} alt="sparkles" />
+                        <img src={puzzle} alt="sparkles" />
+                        <img src={couches} alt="sparkles" />
+                        <img src={hand} alt="sparkles" />
+                        <img src={clock} alt="sparkles" />
+                    </span>
                 </div>
             </div>
 
@@ -372,7 +684,7 @@ function Game() {
             </div>
 
 
-            <img src={vrMockup} alt="Projet Topfood" />
+            <img className='mockup' src={vrMockup} alt="Projet Topfood" />
         </section>
     );
 }

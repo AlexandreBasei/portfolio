@@ -1,4 +1,4 @@
-#topfood{
+#topfood {
     background-color: #312ed3;
     padding: 0;
     justify-content: end;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-#topfood div img{
+#topfood div img {
     width: 25px;
     opacity: .22;
     user-select: none;
@@ -15,7 +15,7 @@
     pointer-events: none;
 }
 
-.row{
+.row {
     position: relative;
     width: 100%;
     display: flex;
@@ -25,111 +25,138 @@
     top: -2.5%;
 }
 
-.row div{
+.row div {
     white-space: nowrap;
     animation: animate 80s linear infinite;
     animation-delay: -80s;
 }
 
-.row div:nth-child(2){
+.row div span{
+    display: none;
+}
+
+.row div:nth-child(2) {
     animation: animate2 80s linear infinite;
     animation-delay: -40s;
 }
 
 @keyframes animate {
-    0%{
+    0% {
         transform: translateX(100%);
     }
-    100%{
+
+    100% {
         transform: translateX(-100%);
     }
 }
 
 @keyframes animate2 {
-    0%{
+    0% {
         transform: translateX(0%);
     }
-    100%{
+
+    100% {
         transform: translateX(-200%);
     }
 }
 
-.row:nth-child(even) div{
+.row:nth-child(even) div {
     animation: animate3 80s linear infinite;
     animation-delay: -80s;
 }
 
-.row:nth-child(even) div:nth-child(2){
+.row:nth-child(even) div:nth-child(2) {
     animation: animate4 80s linear infinite;
     animation-delay: -40s;
 }
 
 @keyframes animate3 {
-    0%{
+    0% {
         transform: translateX(-100%);
     }
-    100%{
+
+    100% {
         transform: translateX(100%);
     }
 }
 
 @keyframes animate4 {
-    0%{
+    0% {
         transform: translateX(-200%);
     }
-    100%{
+
+    100% {
         transform: translateX(0%);
     }
 }
 
 @keyframes showTopText {
-  0% { transform: translate3d(0, 100%, 0); }
-  40%, 60% { transform: translate3d(0, 100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
+    0% {
+        transform: translate3d(0, 100%, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
 }
+
 @keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
+    0% {
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 .animated-title {
-  color: rgba(255, 255, 255, .85);
-  font-family: Roboto, Arial, sans-serif;
-  text-shadow: 1px 1px 6px #292929;
-  font-weight: 1000;
-  text-transform: uppercase;
-  height: 90vmin;
-  left: 55%;
-  position: absolute;
-  top: 10%;
-  transform: translate(-50%, -50%);
-  width: 90vmin;
-}
-.animated-title > div {
-  height: 50%;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
-.animated-title > div div {
-  font-size: 1.8rem;
-  padding: 2vmin 0;
-  position: absolute;
-}
-.animated-title > div.text-top {
-  /* border-bottom: 1vmin solid #000; */
-  top: 0;
-}
-.animated-title > div.text-top div {
-  animation: showTopText linear forwards;
-  animation-delay: 0.5s;
-  animation-timeline: scroll(root);
-  animation-range: 20vh 55vh;
-  bottom: 0;
-  transform: translate(0, 100%);
+    color: rgba(255, 255, 255, .85);
+    font-family: Roboto, Arial, sans-serif;
+    text-shadow: 1px 1px 6px #292929;
+    font-weight: 1000;
+    text-transform: uppercase;
+    height: 90vmin;
+    left: 55%;
+    position: absolute;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    width: 90vmin;
 }
 
-#topfood > div > div > button{
+.animated-title>div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.animated-title>div div {
+    font-size: 1.8rem;
+    padding: 2vmin 0;
+    position: absolute;
+}
+
+.animated-title>div.text-top {
+    /* border-bottom: 1vmin solid #000; */
+    top: 0;
+}
+
+.animated-title>div.text-top div {
+    animation: showTopText linear forwards;
+    animation-delay: 0.5s;
+    animation-timeline: scroll(root);
+    animation-range: 20vh 55vh;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+
+#topfood>div>div>button {
     margin: 5% 0 0 10%;
     padding: 10px 30px;
     border-radius: 50px;
@@ -139,24 +166,31 @@
     transition: scale 0.3s ease;
 }
 
-#topfood > div > div > button:hover{
+#topfood>div>div>button:hover {
     scale: 1.05;
+    cursor: pointer;
 }
 
-#topfood > div > div > button:last-child{
+#topfood>div>div>button:last-child {
     display: none;
 }
 
 @keyframes zoomIn {
-    to {scale:1; opacity: 1;}
+    to {
+        scale: 1;
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
-    to {scale:1; opacity: 1;}
+    to {
+        scale: 1;
+        opacity: 1;
+    }
 }
 
-#topfood > img{
-    
+#topfood>img {
+
     width: 85%;
     margin-left: 10%;
     bottom: 15%;
@@ -166,4 +200,83 @@
     animation: zoomIn linear forwards;
     animation-timeline: scroll(root);
     animation-range: 55vh 85vh;
+}
+
+@media screen and (min-width: 1280px) {
+
+    #topfood div img {
+        width: 50px;
+        padding: 20px;
+    }
+    
+    #topfood .row {
+        padding: 20px 0;
+        transform: rotate(-20deg);
+        top: -2%;
+    }
+    #topfood .bug{
+        display: none;
+    }
+
+    .row div span{
+        display: inline;
+    }
+
+    .animated-title {
+        top: 40%;
+        left: 610px;
+    }
+
+    .animated-title>div div {
+        font-size: 3.5rem;
+    }
+
+    #topfood>img {
+        width: 35vw;
+        right: 7vw;
+        bottom: 25vh;
+    }
+
+    .descr {
+        top: 40%;
+
+        & p {
+            padding: 0 50vw 0 125px;
+            font-size: 1.5rem;
+        }
+    }
+
+    #topfood>div>div>button {
+        margin: 2% 0 0 125px;
+        padding: 15px 35px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+
+    #topfood div img {
+        width: 50px;
+        padding: 35px;
+    }
+
+    #topfood .row {
+        padding: 25px 0;
+        transform: rotate(-20deg);
+        top: -5%;
+    }
+
+    #topfood > img {
+        width: 30vw;
+        right: 10vw;
+        bottom: 20vh;
+    }
+
+    .descr p {
+        padding: 0 50vw 0 195px;
+    }
+
+    #topfood>div>div>button {
+        margin: 2% 0 0 195px;
+    }
 }

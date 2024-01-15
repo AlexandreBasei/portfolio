@@ -1,0 +1,49 @@
+#crea{
+    background-color: orange;
+    position: relative;
+    padding: 0;
+}
+
+#crea .animated-title{
+    width: 100%;
+    left: 50%;
+    text-align: center;
+
+    & > div > div{
+        width: 100%;
+    }
+    & span{
+        width: 100%;
+        display: block;
+    }
+}
+
+#crea .animated-title > div.text-top div{
+    animation-range: 120vh 155vh;
+}
+
+.descr{
+    margin-left: 0;
+    left: 0;
+}
+
+.crea-img{
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70%;
+    gap: 3%;
+    position: absolute;
+    bottom: 2vh;
+
+    & img{
+        height: 20vh;
+        scale: .75;
+        opacity: 1;
+        animation: zoomIn linear forwards;
+        animation-timeline: scroll(root);
+        animation-range: 140vh 194vh;
+    }
+}

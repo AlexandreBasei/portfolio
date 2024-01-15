@@ -1,11 +1,11 @@
-#game{
+#game {
     background-color: #852abc;
     position: relative;
     padding: 0;
     overflow: hidden;
 }
 
-#game div img{
+#game div img {
     width: 25px;
     opacity: .22;
     user-select: none;
@@ -14,16 +14,16 @@
     pointer-events: none;
 }
 
-#game .row{
+#game .row {
     transform: rotate(30deg);
     top: 2.5%;
 }
 
-#game .animated-title > div.text-top div{
-    animation-range: 120vh 155vh;
+#game .animated-title>div.text-top div {
+    animation-range: 220vh 255vh;
 }
 
-#game > img{ 
+#game>img {
     width: 80%;
     left: 10%;
     bottom: 15%;
@@ -33,5 +33,101 @@
     margin: 0;
     animation: zoomIn linear forwards;
     animation-timeline: scroll(root);
-    animation-range: 155vh 185vh;
+    animation-range: 255vh 285vh;
+}
+
+@media screen and (min-width: 1280px) {
+
+    #game div img {
+        width: 50px;
+        padding: 20px;
+    }
+
+    #game .row {
+        padding: 20px 0;
+        transform: rotate(-20deg);
+        top: -2%;
+    }
+
+    #game .bug {
+        display: none;
+    }
+
+    .row div span {
+        display: inline;
+    }
+
+    .animated-title {
+        top: 40%;
+        left: 610px;
+    }
+
+    .animated-title>div div {
+        font-size: 3.5rem;
+    }
+
+    #game>img {
+        width: 35vw;
+        right: 7vw;
+        bottom: 20vh;
+        left: auto;
+    }
+
+    .descr {
+        top: 40%;
+
+        & p {
+            padding: 0 50vw 0 125px;
+            font-size: 1.5rem;
+        }
+
+        & button {
+            margin: 2% 0 0 195px;
+            padding: 15px 35px;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1800px) {
+
+    #game div img {
+        width: 50px;
+        padding: 35px;
+    }
+
+    #game .row {
+        padding: 25px 0;
+        transform: rotate(-20deg);
+        top: -5%;
+    }
+
+    #game .row .bug2 {
+        display: none;
+    }
+
+    #game>img {
+        width: 30vw;
+        right: 10vw;
+        bottom: 20vh;
+    }
+
+    .descr p {
+        padding: 0 50vw 0 195px;
+    }
+
+    #game>div>div>button {
+        margin: 2% 0 0 195px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .animated-title {
+        top: 40%;
+        left: 775px;
+    }
+
+    .descr p {
+        padding: 0 55vw 0 195px;
+    }
 }
