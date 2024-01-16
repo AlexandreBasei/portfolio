@@ -680,7 +680,7 @@ function Game() {
             <div className='descr'>
                 <p>Thumanite est une expérience interactive en réalité virtuelle qui propose un voyage à travers différents époques marquantes de l'Histoire, chacune proposant une énigme unique à résoudre. Embarquez dans un voyage unique sur les traces de l'humanité !</p>
 
-                <button className='download'>Regarder la démonstration</button>
+                <a href={"https://www.youtube.com"} target="_blank" rel="noopener noreferrer" className='download'>Regarder la démonstration</a>
             </div>
 
 

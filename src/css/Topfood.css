@@ -92,12 +92,12 @@
 
 @keyframes showTopText {
     0% {
-        transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 110%, 0);
     }
 
     40%,
     60% {
-        transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 110%, 0);
     }
 
     100% {
@@ -121,11 +121,11 @@
     text-shadow: 1px 1px 6px #292929;
     font-weight: 1000;
     text-transform: uppercase;
-    height: 90vmin;
-    left: 55%;
+    height: 30vmin;
+    left: 10%;
     position: absolute;
-    top: 10%;
-    transform: translate(-50%, -50%);
+    top: 3%;
+    /* transform: translate(-50%, -50%); */
     width: 90vmin;
 }
 
@@ -138,8 +138,19 @@
 
 .animated-title>div div {
     font-size: 1.8rem;
-    padding: 2vmin 0;
+    padding: 2.5vmin 8vmin;
     position: absolute;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: #4431ae;
+}
+
+#crea .animated-title>div div {
+background-color: transparent;
+}
+
+#game .animated-title>div div {
+    background-color: #842f90;
 }
 
 .animated-title>div.text-top {
@@ -156,23 +167,28 @@
     transform: translate(0, 100%);
 }
 
-#topfood>div>div>button {
-    margin: 5% 0 0 10%;
-    padding: 10px 30px;
+section>div>a {
+    margin-left: 10%;
+    margin-top: 5%;
     border-radius: 50px;
     border: none;
     font-weight: bold;
+    background-color: #fff;
     box-shadow: 1px 1px 15px #454545;
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    font-size: 1rem;
     transition: scale 0.3s ease;
 }
 
-#topfood>div>div>button:hover {
-    scale: 1.05;
-    cursor: pointer;
+section .descr p{
+    margin-bottom: 50px;
 }
 
-#topfood>div>div>button:last-child {
-    display: none;
+section>div>a:hover {
+    scale: 1.05;
+    cursor: pointer;
 }
 
 @keyframes zoomIn {
@@ -222,13 +238,31 @@
         display: inline;
     }
 
-    .animated-title {
+    /* .animated-title {
         top: 40%;
-        left: 610px;
+        left: 59vw;
+        width: 100vw;
     }
 
     .animated-title>div div {
+        padding: 2vmin 4vmin;
+        border: 5px solid white;
         font-size: 3.5rem;
+    } */
+
+    .animated-title{
+        left: 10%;
+        top: 23%;
+        & > div > div{
+            width: fit-content;
+            border: 5px solid white;
+            padding: 2.5vmin 6vmin;
+        }
+        & span{
+            width: 100%;
+            display: block;
+            font-size: 3.5rem;
+        }
     }
 
     #topfood>img {
@@ -241,13 +275,14 @@
         top: 40%;
 
         & p {
-            padding: 0 50vw 0 125px;
+            padding: 0 50vw 0 10%;
             font-size: 1.5rem;
+            margin-bottom: 6%;
         }
     }
 
-    #topfood>div>div>button {
-        margin: 2% 0 0 125px;
+    #topfood>div>div>a,  section>div>a {
+        margin: 0 0 0 10%;
         padding: 15px 35px;
         font-size: 1.5rem;
     }

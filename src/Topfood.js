@@ -11,6 +11,7 @@ import pin from './images/svg/pin.svg';
 import search from './images/svg/search.svg';
 import stats from './images/svg/stats.svg';
 import user from './images/svg/user.svg';
+import apk from './images/apk/topfood.apk';
 
 function Topfood() {
 
@@ -678,10 +679,7 @@ function Topfood() {
             <div className='descr'>
                 <p>TopFood est un réseau social centré sur la nourriture, qui vous permet de partager vos restaurants préférés en fonction des plats que vous aimez. Découvrez des restaurants et aiguisez votre palais en analysant vos goûts personnels !</p>
 
-                <div>
-                    <button className='download'>Télécharger l'application TopFood</button>
-                    <button className='download'>Visiter TopFood</button>
-                </div>
+                <a href={apk} target="_blank" rel="noopener noreferrer" className='download'>Télécharger l'application TopFood</a>
             </div>
 
             <img className='mockup' src={phoneMockup} alt="Projet Topfood" />

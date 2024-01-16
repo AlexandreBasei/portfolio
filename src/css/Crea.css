@@ -5,16 +5,18 @@
 }
 
 #crea .animated-title{
-    width: 100%;
-    left: 50%;
+    width: 100vw;
+    left: 10%;
     text-align: center;
 
     & > div > div{
-        width: 100%;
+        width: fit-content;
+        padding: 2.5vmin 8vmin;
     }
     & span{
         width: 100%;
         display: block;
+        font-size: 1.35rem;
     }
 }
 
@@ -39,6 +41,7 @@
     bottom: 2vh;
 
     & img{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         height: 20vh;
         scale: .75;
         opacity: 1;
@@ -46,4 +49,43 @@
         animation-timeline: scroll(root);
         animation-range: 140vh 194vh;
     }
+}
+
+@media screen and (min-width: 1280px) {
+
+    #crea .animated-title{
+        left: 10%;
+        top: 5%;
+        & > div > div{
+            width: fit-content;
+            padding: 2.5vmin 6vmin;
+        }
+        & span{
+            width: 100%;
+            display: block;
+            font-size: 3.5rem;
+        }
+    }
+
+    #crea .descr{
+        top: 22%;
+
+        & p{
+            padding: 0 40vw 0 10%;
+        }
+    }
+
+    .crea-img{
+        flex-flow: wrap row;
+        gap: 8%;
+
+        & img{
+            height: 30vh;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1800px) {
+
 }

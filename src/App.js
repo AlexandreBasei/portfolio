@@ -6,6 +6,8 @@ import Topfood from './Topfood';
 import Game from './Game';
 import Crea from './Crea';
 
+document.title = 'Alexandre Basei - Portfolio';
+
 function App() {
   return (
     <div className="App">
