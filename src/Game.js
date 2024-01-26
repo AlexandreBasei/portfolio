@@ -672,19 +672,20 @@ function Game() {
             <div className="animated-title">
                 <div className="text-top">
                     <div>
-                        <span>Thumanite VR</span>
+                        <span>Omniscient VR</span>
                     </div>
                 </div>
             </div>
 
             <div className='descr'>
-                <p>Thumanite est une expérience interactive en réalité virtuelle qui propose un voyage à travers différents époques marquantes de l'Histoire, chacune proposant une énigme unique à résoudre. Embarquez dans un voyage unique sur les traces de l'humanité !</p>
+                <p>Omniscient VR est une expérience en réalité virtuelle centrée autour de la récolte d’ingrédients pour la fabrication de potions. Au début du jeu, notre personnage perd ses sens, ce qui se traduit par la disparition des couleurs de l’environnement, couleurs qui reviendront petit à petit à chaque potion concoctée et bue.
+                    Ce projet a été réalisé dans le cadre d’une JAM universitaire.</p>
 
-                <a href={"https://www.youtube.com"} target="_blank" rel="noopener noreferrer" className='download'>Regarder la démonstration</a>
+                <a href={"https://youtu.be/3-_cIEEO66w?si=9ClIaWbY2f2ikL3b"} target="_blank" rel="noopener noreferrer" className='download'>Regarder la démonstration</a>
             </div>
 
 
-            <img className='mockup' src={vrMockup} alt="Projet Topfood" />
+            <img className='mockup' src={vrMockup} alt="Projet OmniscientVR" />
         </section>
     );
 }
