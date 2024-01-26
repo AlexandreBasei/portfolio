@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e4c4887f.css",
-    "main.js": "/portfolio/static/js/main.11c71935.js",
+    "main.js": "/portfolio/static/js/main.e2e1ec71.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Basei_coaching.gif": "/portfolio/static/media/Basei_coaching.776ca6b6372efdf548d1.gif",
     "static/media/Basei_zebre.gif": "/portfolio/static/media/Basei_zebre.9af62624555f2080ba88.gif",
     "static/media/topfood.apk": "/portfolio/static/media/topfood.2df95f2e9c3673aca8a7.apk",
-    "static/media/vr-mockup.png": "/portfolio/static/media/vr-mockup.f7198e40c46d915a8b8d.png",
+    "static/media/vr-mockup.png": "/portfolio/static/media/vr-mockup.25dd87d45835a3d7ad83.png",
     "static/media/mobile-mockup.png": "/portfolio/static/media/mobile-mockup.64ff24e5f17df914a63d.png",
     "static/media/Basei_AnimJPO.gif": "/portfolio/static/media/Basei_AnimJPO.853990bcd5b376bf4b08.gif",
     "static/media/CV Alexandre Basei.pdf": "/portfolio/static/media/CV Alexandre Basei.a0d5a40fad9b8f1f80b1.pdf",
@@ -32,11 +32,11 @@
     "static/media/clock.svg": "/portfolio/static/media/clock.71ba6f47648abd7cfb69908a9e91f706.svg",
     "static/media/search.svg": "/portfolio/static/media/search.82e591cddb446f8a739cc60808cc7788.svg",
     "main.e4c4887f.css.map": "/portfolio/static/css/main.e4c4887f.css.map",
-    "main.11c71935.js.map": "/portfolio/static/js/main.11c71935.js.map",
+    "main.e2e1ec71.js.map": "/portfolio/static/js/main.e2e1ec71.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4c4887f.css",
-    "static/js/main.11c71935.js"
+    "static/js/main.e2e1ec71.js"
   ]
 }
